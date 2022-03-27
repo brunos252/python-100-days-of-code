@@ -1,3 +1,6 @@
+"""
+Number guessing game 1-100 with 5 or 10 tries.
+"""
 import random
 
 print("Welcome to the Number Guessing Game!\nI'm thinking of a number between 1 and 100")

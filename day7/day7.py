@@ -1,4 +1,6 @@
-# Hangman game
+"""
+Hangman game
+"""
 import random
 from hangman_art import stages, logo
 from hangman_words import word_list
@@ -45,7 +47,3 @@ while "_" in display:
 
 if lives > 0:
     print("You win!")
-
-
-
-

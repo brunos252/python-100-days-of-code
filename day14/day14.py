@@ -1,3 +1,7 @@
+"""
+Higher-lower game with game_data representing ig account follower counts
+"""
+
 from art import logo, vs
 from game_data import data
 import random

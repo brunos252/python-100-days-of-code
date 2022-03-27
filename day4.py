@@ -1,3 +1,7 @@
+"""
+Rock-paper-scissors game against computer
+"""
+
 rock = '''
     _______
 ---'   ____)
