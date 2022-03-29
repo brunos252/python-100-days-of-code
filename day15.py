@@ -36,11 +36,13 @@ resources = {
 
 money = 0
 
+
 def print_report():
     print(f"Water: " + str(resources["water"]) + "ml")
     print("Milk: " + str(resources["milk"]) + "ml")
     print("Coffee: " + str(resources["coffee"]) + "g")
     print("Money: $" + str(money))
+
 
 def check_resources(drink):
     for resource in MENU[drink]["ingredients"]:
@@ -55,6 +57,8 @@ def check_resources(drink):
 
 while True:
     user_input = input("What would you like? (espresso/latte/cappuccino): ")
+    if user_input == "off":
+        break
     if user_input == "report":
         print_report()
         continue
