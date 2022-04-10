@@ -52,3 +52,18 @@ data_dict = {
 data = pandas.DataFrame(data_dict)
 print(data)
 data.to_csv("new_data.csv")
+
+
+# iterate over pandas DataFrame, same as through dict
+student_scores = {
+    "student": ["Angela", "James", "Lily"],
+    "score": [56, 76, 98]
+}
+student_dataframe = pandas.DataFrame(student_scores)
+
+for (key, value) in student_dataframe.items():
+    print(key, value)
+
+# loop through rows of data frame
+for (index, row) in student_dataframe.iterrows():
+    print(index, row)
