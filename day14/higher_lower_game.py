@@ -9,6 +9,7 @@ import os
 
 cls = lambda: os.system("cls" if os.name == "nt" else "clear")
 
+
 def game_state(score=0):
     cls()
     print(logo)
@@ -30,5 +31,6 @@ def game_state(score=0):
         cls()
         print(f"Sorry, that's wrong. Final score: {score}")
         return
+
 
 game_state()
