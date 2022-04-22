@@ -5,7 +5,7 @@ App for sending SMS warning when it is going to rain that day
 import requests
 from twilio.rest import Client
 
-api_key = "6729f931dcb0622f0e2b56d50b939ea1"
+api_key = "***"
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 account_sid = ""
 auth_token = ""
