@@ -3,7 +3,7 @@ App for sending SMS warning when it is going to rain that day
 """
 
 import requests
-from twilio.rest import Client
+# from twilio.rest import Client
 
 api_key = "***"
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
@@ -33,11 +33,11 @@ for hour_data in next_12_hours:
     if condition_code < 700:
         will_rain = True
 
-if will_rain:
-    client = Client(account_sid, auth_token)
-    message = client.messages.create(
-        body="Its going to rain today, bring an umbrella",
-        from="",
-        to=""
-    )
-    print(message.status)
+# if will_rain:
+#     client = Client(account_sid, auth_token)
+#     message = client.messages.create(
+#         body="Its going to rain today, bring an umbrella",
+#         from="",
+#         to=""
+#     )
+#     print(message.status)
