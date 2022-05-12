@@ -1,0 +1,47 @@
+/*
+inline CSS -
+internal CSS - defined in html
+external CSS - in separate .css file
+*/
+
+
+/*
+Tag selectors - for any tag, h1, body, etc
+defined as:
+*/
+
+h1 {
+    background-color: red;
+}
+
+/*
+class selectors - assigned to tags, more specific than tag selectors so used over them
+- used like: <img class="class1 class2" ...
+*/
+
+.bacon {
+    background-color: blue;
+}
+
+/*
+when to use classes and when ids?
+- only 1 instance can use id, there can be more of a class
+- an element can have multiple classes, but only 1 id
+
+id selectors - more specific than class selectors
+<img id="heading">
+*/
+
+#heading {
+    color: blue;
+}
+
+/*
+Pseudoclass:
+for instance :hover
+- s
+
+*/
+img:hover {
+    background-color: gold;
+}
