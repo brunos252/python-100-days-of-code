@@ -1,0 +1,14 @@
+create favicon - https://www.favicon.cc/? make custom favicon
+favicon - icon in tab
+pesticide - chrome extension for showing parts of a website
+
+div allows us to divide website into parts
+
+colorhunt.com - to select colors
+
+box model of css
+- padding, margin, border
+
+- can use px or % for sizes
+
+Google Fonts resource
